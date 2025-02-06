@@ -8,10 +8,32 @@ export default {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: "25px",
+      },
       colors: {
+        white: "#fefefe",
+        orange: "#EA731A",
+        blue: "#2E54C3",
+        gray: {
+          DEFAULT: "#F0F0F0",
+          colored: "#2D2E2F",
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
+
+      },
+      fontFamily: {
+        primary: "var(--font-roboto)",
+      },
+
     },
   },
   plugins: [require('@tailwindcss/forms')],
