@@ -9,8 +9,10 @@ export const Checkbox = ({ label }: { label?: string }) => {
     <div className="flex items-center gap-[10px]">
       <div
         onClick={handleToggle}
-        className={`w-6 h-6 border-2 rounded-md flex items-center justify-center cursor-pointer ${
-          checked ? "bg-blue-500 border-blue-500" : "bg-white border-gray-300"
+        className={`w-6 h-6 border-[1px] rounded-md flex items-center justify-center cursor-pointer ${
+          checked
+            ? "bg-white border-gray-colored"
+            : "bg-white border-gray-colored"
         }`}
       >
         {checked && (

@@ -2,7 +2,7 @@ import { FC } from "react";
 import Image from "next/image";
 export const Logo: FC = () => {
   return (
-    <div className="max-w-[120px] h-10">
+    <div className="w-[77px] xl:w-[120px] h-10">
       <Image
         src={"/assets/logo.png"}
         priority

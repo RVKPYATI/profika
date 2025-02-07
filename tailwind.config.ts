@@ -10,7 +10,13 @@ export default {
     extend: {
       container: {
         center: true,
-        padding: "25px",
+        padding: {
+          DEFAULT: '15px',
+          sm: '20px',
+          md: '25px',
+          lg: '30px',
+          xl: '40px',
+        },
       },
       colors: {
         white: "#fefefe",

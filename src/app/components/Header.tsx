@@ -6,7 +6,7 @@ import { MobNav } from "./MobNav";
 
 export const Header: FC = () => {
   return (
-    <div className="flex justify-between items-center px-[45px] py-4 border-blue border-[2px] rounded-[55px] mt-[10px]">
+    <div className="flex justify-between items-center px-[35px] xl:px-[45px] py-3 xl:py-4 border-blue border-[2px] rounded-[55px] mt-[10px]">
       <div>
         <Logo />
       </div>

@@ -2,7 +2,6 @@ import React, { ReactElement } from "react";
 
 interface ModalProps {
   visible: boolean;
-  title?: string;
   children: ReactElement | string;
   footer?: ReactElement | string;
   onClose: () => void;
@@ -10,7 +9,6 @@ interface ModalProps {
 
 export const Modal = ({
   visible = false,
-  title = "",
   children = "",
   footer = "",
   onClose,

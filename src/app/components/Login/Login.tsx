@@ -27,11 +27,11 @@ export const Login: FC = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between gap-[25px]">
+      <div className="flex items-center justify-between gap-2 xl:gap-[25px]">
         <div>
           <Link
             href={"/"}
-            className="text-blue text-[14px] font-semibold"
+            className="text-blue text-xs xl:text-sm font-semibold"
             onClick={handleLoginClick}
           >
             Войти
@@ -39,7 +39,7 @@ export const Login: FC = () => {
         </div>
         <div>
           <Button
-            className="w-[145px] text-[14px] py-3"
+            className="w-[120px] xl:w-[145px] text-xs xl:text-sm py-3"
             onClick={handleRegisterClick}
           >
             Регистрация

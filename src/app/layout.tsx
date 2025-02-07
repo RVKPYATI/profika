@@ -4,7 +4,7 @@ import "./globals.css";
 
 const roboto = Roboto({
   variable: "--font-roboto",
-  subsets: ["latin"],
+  subsets: ["cyrillic"],
   weight: ["100", "300", "400", "500", "700", "900"],
 });
 
@@ -19,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru">
-      <body className={roboto.variable}>{children}</body>
+    <html lang="en">
+      <body className={`font-primary ${roboto.variable}`}>{children}</body>
     </html>
   );
 }

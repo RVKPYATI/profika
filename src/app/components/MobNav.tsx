@@ -5,7 +5,6 @@ import { LinkType } from "../types/link";
 import Link from "next/link";
 import { Logo } from "./Logo";
 import { Button } from "./ui/button";
-import { Modal } from "./ui/modal";
 import { LoginForm } from "./Login/LoginForm";
 import { RegisterForm } from "./Login/RegisterForm";
 

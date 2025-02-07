@@ -21,7 +21,7 @@ export const Nav: FC = () => {
 
   return (
     <nav>
-      <ul className="flex items-center justify-between gap-[50px]">
+      <ul className="flex items-center justify-between gap-10 xl:gap-[50px]">
         {links.map((link: LinkType, index: number) => {
           return (
             <li
@@ -33,7 +33,7 @@ export const Nav: FC = () => {
             >
               <Link
                 href={link.path}
-                className="text-[14px] text-gray-colored font-normal hover:text-blue"
+                className="text-xs xl:text-sm text-gray-colored font-normal hover:text-blue"
               >
                 {link.name}
               </Link>
