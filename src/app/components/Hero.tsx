@@ -4,9 +4,8 @@ import Image from "next/image";
 
 export const Hero: FC = () => {
   return (
-    <section className="mt-10  xl:px-[55px]">
+    <section className="mt-10  xl:px-[45px]">
       <div className="max-w-[478px] xl:max-w-[650px]">
-        {/* <div className="text-blue font-bold text-[107px]">ProfU.online</div> */}
         <div className="text-blue font-bold text-[48px] md:text-[85px] xl:text-[106px] font-primary">
           ProfU.onl
           <span className="relative p-0">
