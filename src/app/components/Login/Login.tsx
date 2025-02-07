@@ -13,14 +13,14 @@ export const Login: FC = () => {
   const [isModal, setModal] = useState<boolean>(false);
   const [isRegisterForm, setRegisterForm] = useState<boolean>(false);
 
-  const onClose = () => setModal(false);
+  const onClose = (): void => setModal(false);
 
-  const handleLoginClick = () => {
+  const handleLoginClick = (): void => {
     setRegisterForm(false);
     setModal(true);
   };
 
-  const handleRegisterClick = () => {
+  const handleRegisterClick = (): void => {
     setRegisterForm(true);
     setModal(true);
   };

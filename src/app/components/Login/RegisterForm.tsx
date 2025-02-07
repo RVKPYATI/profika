@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Toogle } from "../ui/toogle";
 
 interface RegisterProps {
-  handleForm: () => void;
+  handleForm?: () => void;
 }
 
 export const RegisterForm: FC<RegisterProps> = ({ handleForm }) => {

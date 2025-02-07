@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 
 interface LoginProps {
-  handleForm: () => void;
+  handleForm?: () => void;
 }
 
 export const LoginForm: FC<LoginProps> = ({ handleForm }) => {
@@ -14,7 +14,10 @@ export const LoginForm: FC<LoginProps> = ({ handleForm }) => {
     <form>
       <div className="flex justify-between items-center">
         <div className="text-blue font-medium text-[18px]">Вход</div>
-        <div className="text-gray-colored text-base" onClick={handleForm}>
+        <div
+          className="text-gray-colored text-base cursor-pointer"
+          onClick={handleForm}
+        >
           Нет аккаунта?
         </div>
       </div>

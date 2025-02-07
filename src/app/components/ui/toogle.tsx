@@ -5,6 +5,11 @@ export const Toogle: FC = () => {
 
   return (
     <div className="w-full flex justify-between border-gray border-[1px] rounded-[20px]">
+      <input
+        type="hidden"
+        name="gender"
+        value={isMale ? "Женский" : "Мужской"}
+      />
       <div
         className={`flex items-center justify-center p-[10px] ${
           isMale ? "bg-white" : "bg-gray text-blue font-bold"
