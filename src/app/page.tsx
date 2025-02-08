@@ -1,3 +1,4 @@
+import { Direction } from "./components/Direction";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Teenager } from "./components/Teenager";
@@ -12,6 +13,7 @@ export default function Home() {
       <Work />
       <Whom />
       <Teenager />
+      <Direction />
     </div>
   );
 }

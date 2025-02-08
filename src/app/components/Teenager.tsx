@@ -21,7 +21,7 @@ const data = [
 
 export const Teenager: FC = () => {
   return (
-    <section className="container py-[50px] overflow-hidden">
+    <section className="py-[50px] overflow-hidden">
       <h2 className="text-[38px] md:text-[48px] text-blue font-bold text-center md:text-left">
         Подростку
       </h2>
