@@ -68,7 +68,7 @@ export const Whom: FC = () => {
         <p className="text-gray-colored xl:text-[26px] font-medium mb-[10px]">
           Подростки
         </p>
-        <div className="flex justify-between ">
+        <div className="flex flex-col md:flex-row justify-between ">
           <div className="max-w-[500px]">
             <div>
               <ul className="text-gray-colored text-xs md:text-base list-disc list-inside ">
@@ -94,7 +94,7 @@ export const Whom: FC = () => {
             </ul>
           </div>
         </div>
-        <div className="absolute top-[-20%] right-[10%] bg-blue rounded-[100px] text-white xl:text-2xl px-6 py-2 max-w-[720px] rotate-[4deg]">
+        <div className="absolute top-[-20%] right-[10%] bg-blue rounded-[100px] text-white text-xs xl:text-2xl px-6 py-2 max-w-[305px] xl:max-w-[720px] rotate-[4deg]">
           Смотреть в будущее без страха благодаря четким планам и реалистичным
           ожиданиям
         </div>
@@ -103,7 +103,7 @@ export const Whom: FC = () => {
         <p className="text-gray-colored xl:text-[26px] font-medium mb-[10px]">
           Руководство региона
         </p>
-        <div className="flex justify-between ">
+        <div className="flex flex-col md:flex-row justify-between ">
           <div>
             <div>
               <ul className="text-gray-colored text-xs md:text-base list-disc list-inside max-w-[500px] ">
@@ -145,7 +145,7 @@ export const Whom: FC = () => {
             </ul>
           </div>
         </div>
-        <div className="absolute bottom-[-5%] right-[-15px] bg-blue rounded-[100px] text-white xl:text-2xl px-6 py-2 max-w-[740px] rotate-[-3deg]">
+        <div className="absolute bottom-[-5%] right-[-15px] bg-blue rounded-[100px] text-white text-xs xl:text-2xl px-6 py-2 max-w-[208px] xl:max-w-[740px] rotate-[-3deg]">
           100% школьников участвуют в программе профориентации
         </div>
       </div>
