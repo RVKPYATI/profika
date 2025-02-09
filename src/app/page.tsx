@@ -1,3 +1,4 @@
+import { DemoForm } from "./components/DemoForm";
 import { Direction } from "./components/Direction";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
@@ -22,6 +23,7 @@ export default function Home() {
       <Methodology />
       <OurMetodology />
       <Partners />
+      <DemoForm />
     </div>
   );
 }
