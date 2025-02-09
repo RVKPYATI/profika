@@ -126,7 +126,7 @@ export const Hero: FC = () => {
               width={63}
               height={74}
               alt=""
-              className="absolute top-0 right-[-25%]"
+              className="absolute top-0 right-[-25%] md:hidden"
             />
           </div>
         </div>
