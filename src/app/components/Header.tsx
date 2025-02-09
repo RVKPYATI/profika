@@ -1,5 +1,5 @@
 "use client";
-import { FC, useState } from "react";
+import { FC } from "react";
 import { Logo } from "./Logo";
 import { Nav } from "./Nav";
 import { Login } from "./Login/Login";
