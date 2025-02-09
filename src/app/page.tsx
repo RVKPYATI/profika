@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Methodology } from "./components/Methodology";
 import { OurMetodology } from "./components/OurMetodology";
+import { Partners } from "./components/Partners";
 import { Tasks } from "./components/Tasks";
 import { Teenager } from "./components/Teenager";
 import { Whom } from "./components/Whom";
@@ -20,6 +21,7 @@ export default function Home() {
       <Tasks />
       <Methodology />
       <OurMetodology />
+      <Partners />
     </div>
   );
 }
