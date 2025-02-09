@@ -13,7 +13,7 @@ export const Partners: FC = () => {
       </div>
       <div className="mt-[25px] flex flex-col sm:flex-row  gap-[80px] sm:gap-[10px]">
         <div className="flex justify-between items-center sm:justify-normal ">
-          <div className=" pr-0 md:pr-[50px] ">
+          <div className=" pr-0 sm:pr-1 xl:pr-[50px] ">
             <Image
               src="/assets/innopraktika.png"
               width={109}
@@ -22,13 +22,13 @@ export const Partners: FC = () => {
               className="min-w-[98px] md:min-w-[109px]"
             />
           </div>
-          <div className="border-l-[1px] border-l-gray-colored/30 pl-[15px] md:pl-[50px] w-[160px] md-w-[250px] text-[8px] md:text-[10px] xl:text-xs">
+          <div className="border-l-[1px] border-l-gray-colored/30 pl-[15px]  xl:pl-[50px] w-[160px] sm:w-[200px] xl:w-[300px] text-[8px] md:text-[10px] xl:text-xs">
             Иннопрактика - негосударственный институт развития, содействие росту
             национального человеческого капитала России
           </div>
         </div>
         <div className="flex justify-between items-center sm:justify-normal ">
-          <div className="mx-auto sm:mx-0 pr-0 md:pr-[50px]">
+          <div className="mx-auto sm:mx-0 pr-0 sm:pr-1 xl:pr-[50px]">
             <Image
               src="/assets/universitet.png"
               width={50}
@@ -37,7 +37,7 @@ export const Partners: FC = () => {
               className="min-w-[46px] md:min-w-[50px]"
             />
           </div>
-          <div className="border-l-[1px] border-l-gray-colored/30 pl-[15px] md:pl-[50px] w-[160px] md:w-[250px] text-[8px] md:text-[10px] xl:text-xs self-scretch h-full">
+          <div className="border-l-[1px] border-l-gray-colored/30 pl-[15px]  xl:pl-[50px] w-[160px] sm:w-[200px] xl:-w-[300px] text-[8px] md:text-[10px] xl:text-xs self-scretch h-full">
             РГПУ им. А.И. Герцена - ведущее педагогическое высшее учебное
             заведение РФ
           </div>
