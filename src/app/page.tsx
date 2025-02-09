@@ -18,13 +18,17 @@ export default function Home() {
         <Header />
         <Hero />
         <Work />
-        <Whom />
+      </div>
+      <Whom />
+      <div className="container">
         <Teenager />
         <Direction />
         <Tasks />
         <Methodology />
         <OurMetodology />
         <Partners />
+      </div>
+      <div className="container">
         <DemoForm />
       </div>
       <Footer />

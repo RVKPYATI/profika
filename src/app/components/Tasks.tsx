@@ -50,7 +50,7 @@ const tasks = [
 export const Tasks: FC = () => {
   return (
     <section className="py-[40px]">
-      <h3 className="text-[32px] md:text-[38px] xl:text-[48px] text-blue font-bold">
+      <h3 className="text-[32px] md:text-[38px] xl:text-[48px] text-blue font-bold max-w-[562px]">
         Задачи региона в блоке профориентации
       </h3>
       {/* слайдер */}

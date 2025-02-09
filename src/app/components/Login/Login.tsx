@@ -39,7 +39,7 @@ export const Login: FC = () => {
         </div>
         <div>
           <Button
-            className="w-[120px] xl:w-[145px] text-xs xl:text-sm py-3"
+            className="w-[120px] md:w-[145px] xl:w-[317px] text-xs xl:text-sm py-3"
             onClick={handleRegisterClick}
           >
             Регистрация

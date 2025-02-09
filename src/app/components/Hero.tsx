@@ -6,45 +6,13 @@ export const Hero: FC = () => {
   return (
     <section className="mt-10  xl:px-[45px]">
       <div className="max-w-[478px] xl:max-w-[650px]">
-        <div className="text-blue font-bold text-[48px] md:text-[85px] xl:text-[106px] font-primary">
-          ProfU.onl
-          <span className="relative p-0">
-            i
-            <span className="absolute top-[10px] left-[3px] md:top-[15px] md:left-[3.5px] xl:top-[20px] xl:left-[5px]">
-              <svg
-                width="21"
-                height="21"
-                viewBox="0 0 21 21"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="9.5"
-                  cy="9.5"
-                  r="9.5"
-                  stroke="none"
-                  fill="white"
-                  strokeWidth="0"
-                />
-                <circle
-                  cx="9.5"
-                  cy="9.5"
-                  r="8.5"
-                  stroke="#EA731A"
-                  fill="white"
-                  strokeWidth="2"
-                />
-                <circle
-                  cx="9.5"
-                  cy="9.5"
-                  r="4"
-                  stroke="#EA731A"
-                  fill="white"
-                  strokeWidth="2"
-                />
-              </svg>
-            </span>
-          </span>
-          ne
+        <div>
+          <Image
+            src={"/assets/ProfU.png"}
+            width={597}
+            height={127}
+            alt="hero-logo"
+          />
         </div>
 
         <div className="text-gray-colored text-sm md:text-xl xl:text-2xl">
