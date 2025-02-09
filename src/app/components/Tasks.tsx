@@ -7,7 +7,7 @@ import "swiper/css";
 
 import "swiper/css/pagination";
 import Image from "next/image";
-import "./swiper.css";
+import "../swiper.css";
 
 const tasks = [
   {
