@@ -1,5 +1,6 @@
 import { DemoForm } from "./components/DemoForm";
 import { Direction } from "./components/Direction";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Methodology } from "./components/Methodology";
@@ -12,18 +13,21 @@ import { Work } from "./components/Work";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Header />
-      <Hero />
-      <Work />
-      <Whom />
-      <Teenager />
-      <Direction />
-      <Tasks />
-      <Methodology />
-      <OurMetodology />
-      <Partners />
-      <DemoForm />
-    </div>
+    <>
+      <div className="container">
+        <Header />
+        <Hero />
+        <Work />
+        <Whom />
+        <Teenager />
+        <Direction />
+        <Tasks />
+        <Methodology />
+        <OurMetodology />
+        <Partners />
+        <DemoForm />
+      </div>
+      <Footer />
+    </>
   );
 }
