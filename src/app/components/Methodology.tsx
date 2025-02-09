@@ -63,8 +63,11 @@ export const Methodology: FC = () => {
         <div className="flex justify-between flex-wrap md:flex-nowrap">
           {metodoLodyData.map((item) => {
             return (
-              <div className="flex flex-col gap-[15px] max-w-[50%] sm:max-w-full mt-[15px] sm:mt-0 last:mx-auto">
-                <div key={item.id} className="flex justify-center">
+              <div
+                key={item.id}
+                className="flex flex-col gap-[15px] max-w-[50%] sm:max-w-full mt-[15px] sm:mt-0 last:mx-auto"
+              >
+                <div className="flex justify-center">
                   <Image
                     src={item.img.url}
                     width={item.img.width}
