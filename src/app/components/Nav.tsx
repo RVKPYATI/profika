@@ -5,15 +5,15 @@ import Link from "next/link";
 import { LinkType } from "../types/link";
 
 const links: LinkType[] = [
-  { name: "Наше решение", path: "/" },
-  { name: "Для кого", path: "/" },
+  { name: "Наше решение", path: "#work" },
+  { name: "Для кого", path: "#whom" },
   { name: "Отчетность", path: "/" },
-  { name: "Методика", path: "/" },
+  { name: "Методика", path: "#methodology" },
 ];
 
 const dropdownLinks: LinkType[] = [
-  { name: "Школьникам", path: "/" },
-  { name: "Региону", path: "/" },
+  { name: "Школьникам", path: "#teenager" },
+  { name: "Региону", path: "#direction" },
 ];
 
 export const Nav: FC = () => {

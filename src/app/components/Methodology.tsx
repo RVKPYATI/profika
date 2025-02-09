@@ -31,7 +31,7 @@ const metodoLodyData = [
 
 export const Methodology: FC = () => {
   return (
-    <section className="py-[40px]">
+    <section id="methodology" className="py-[40px]">
       <div className="flex justify-between">
         <div className="max-w-[533px]">
           <h2 className="text-[40px] md:text-[75px] xl:text-[96px] font-bold text-blue">
@@ -53,6 +53,7 @@ export const Methodology: FC = () => {
         <div className="self-start hidden md:block">
           <Image
             src={"/assets/method.png"}
+            quality={100}
             width={200}
             height={234}
             alt="method"

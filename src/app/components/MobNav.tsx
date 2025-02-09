@@ -9,15 +9,15 @@ import { LoginForm } from "./Login/LoginForm";
 import { RegisterForm } from "./Login/RegisterForm";
 
 const links: LinkType[] = [
-  { name: "Наше решение", path: "/" },
-  { name: "Для кого", path: "/" },
+  { name: "Наше решение", path: "#work" },
+  { name: "Для кого", path: "#whom" },
   { name: "Отчетность", path: "/" },
-  { name: "Методика", path: "/" },
+  { name: "Методика", path: "#methodology" },
 ];
 
 const dropdownLinks: LinkType[] = [
-  { name: "Школьникам", path: "/" },
-  { name: "Региону", path: "/" },
+  { name: "Школьникам", path: "#teenager" },
+  { name: "Региону", path: "#direction" },
 ];
 
 export const MobNav: FC = () => {
@@ -126,7 +126,7 @@ export const MobNav: FC = () => {
                       href={link.path}
                       className="text-gray-colored"
                       onClick={
-                        link.name === "Отчетность" ? toggleSubMenu : undefined
+                        link.name === "Отчетность" ? toggleSubMenu : toggleMenu
                       }
                     >
                       <span className="flex items-center justify-center">
@@ -149,6 +149,7 @@ export const MobNav: FC = () => {
                                 <Link
                                   href={link.path}
                                   className="text-gray-colored"
+                                  onClick={toggleMenu}
                                 >
                                   {link.name}
                                 </Link>

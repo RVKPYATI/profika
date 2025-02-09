@@ -58,7 +58,10 @@ const direction = {
 
 export const Whom: FC = () => {
   return (
-    <section className="container bg-gray rounded-[20px] overflow-hidden py-[50px] pb-12">
+    <section
+      id="whom"
+      className="container bg-gray rounded-[20px] overflow-hidden py-[50px] pb-12"
+    >
       <div className="max-w-[660px] mb-[135px]">
         <h2 className=" text-10 md:text-[75px] xl:text-[96px] text-blue font-bold leading-none">
           Для кого наше решение

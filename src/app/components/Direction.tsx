@@ -22,7 +22,7 @@ const data = [
 
 export const Direction: FC = () => {
   return (
-    <section className="py-[50px] overflow-hidden">
+    <section id="direction" className="py-[50px] overflow-hidden">
       <div className="max-w-[527px]">
         <h2 className="text-[38px] md:text-[48px] text-blue font-bold text-center md:text-left">
           Руководству региона
@@ -58,12 +58,13 @@ export const Direction: FC = () => {
             </Button>
           </div>
         </div>
-        <div className="min-w-[65%] self-end">
+        <div className="min-w-[65%] flex justify-end">
           <Image
             src="/assets/direction.png"
-            width={928}
-            height={585}
+            width={622}
+            height={620}
             alt="direction"
+            className="self-end"
           />
         </div>
       </div>

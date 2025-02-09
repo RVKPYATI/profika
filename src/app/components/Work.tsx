@@ -35,7 +35,7 @@ const data = [
 
 export const Work: FC = () => {
   return (
-    <section className="xl:px-[45px] py-[50px]">
+    <section id="work" className="xl:px-[45px] py-[50px]">
       <div className="grid grid-cols-1 md:grid-cols-2 ">
         <div className="mx-auto">
           <h2 className="text-[40px] md:text-[75px] xl:text-[96px] text-blue font-bold mb-4 leading-none">

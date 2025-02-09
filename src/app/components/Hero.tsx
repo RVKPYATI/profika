@@ -50,7 +50,7 @@ export const Hero: FC = () => {
         <div className="flex justify-between gap-4 xl:gap-20 translate-y-[-35%] md:translate-y-[-10%]">
           <div className="max-w-[1/2] xl:max-w-[250px]">
             <Image
-              src={"/assets/arrow.svg"}
+              src={"/assets/arrow.png"}
               width={78}
               height={71}
               alt=""
@@ -63,7 +63,7 @@ export const Hero: FC = () => {
           </div>
           <div className="max-w-[1/2] xl:max-w-[253px]">
             <Image
-              src={"/assets/books.svg"}
+              src={"/assets/books.png"}
               width={74}
               height={71}
               alt=""
