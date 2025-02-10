@@ -62,7 +62,7 @@ export const Work: FC = () => {
                   <h3 className="text-xl md:text-[26px] xl:text-[32px] font-medium">
                     {step.title}
                   </h3>
-                  <p className="text-gray-colored text-[10px] md:text-xs xl:text-sm">
+                  <p className="text-gray-colored text-[10px] md:text-xs xl:text-sm mt-[10px]">
                     {step.description}
                   </p>
                   <p>

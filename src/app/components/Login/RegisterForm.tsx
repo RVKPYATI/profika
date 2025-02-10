@@ -71,8 +71,8 @@ export const RegisterForm: FC<RegisterProps> = ({ handleForm }) => {
           <div className="flex justify-between items-center border-b border-gray-colored/50">
             <input
               type="text"
-              name="email"
-              placeholder="Эл. почта"
+              name="phone"
+              placeholder="Номер телефона"
               className="p-[10px] w-full focus:outline-none outline-none border-none placeholder:text-gray-colored/30"
             />
             <button className="w-[126px] h-[27px] bg-gray rounded-[20px] px-5 py-[5px] flex items-center text-[14px] text-blue">

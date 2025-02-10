@@ -4,10 +4,10 @@ import { FC } from "react";
 export const Partners: FC = () => {
   return (
     <section className="container py-[50px] bg-gray rounded-[20px]">
-      <h2 className="text-[40px] md:text-[75px] xl:text-[96px] text-blue font-bold">
+      <h2 className="text-[40px] md:text-[75px] xl:text-[96px] text-blue font-bold leading-none">
         Наши партнеры
       </h2>
-      <div className="mt-[50px] max-w-[464px] xl:text-lg">
+      <div className="mt-[40px] max-w-[464px] xl:text-lg">
         Наш проект сотрудничает с известными компаниями и ведоствами для
         создания ProfU.online
       </div>

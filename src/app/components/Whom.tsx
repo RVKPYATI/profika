@@ -121,7 +121,7 @@ export const Whom: FC = () => {
                   );
                 })}
               </ul>
-              <ul className="text-gray-colored text-xs md:text-base list-disc list-inside ">
+              <ul className="text-gray-colored text-xs md:text-base list-disc list-inside mt-[15px]">
                 <p className="font-medium xl:text-lg">
                   {direction.block2.title}
                 </p>

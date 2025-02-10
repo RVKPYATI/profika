@@ -44,7 +44,7 @@ export const Methodology: FC = () => {
               на самом деле хочет ребенок, а также понять к чему у подростка
               есть способности.
             </p>
-            <p>
+            <p className="mt-[15px]">
               По результатам тестирования у учащегося будут выявлены способности
               по каждой из пяти универсальных компетенций:
             </p>
@@ -61,7 +61,7 @@ export const Methodology: FC = () => {
         </div>
       </div>
       <div className="mt-[30px]">
-        <div className="flex justify-between flex-wrap md:flex-nowrap">
+        <div className="flex justify-between  gap-0 xl:gap-[35px] flex-wrap md:flex-nowrap">
           {metodoLodyData.map((item) => {
             return (
               <div
@@ -77,7 +77,7 @@ export const Methodology: FC = () => {
                     className="w-auto h-[40px] md:h-[50px]"
                   />
                 </div>
-                <div className="text-center text-xs xl:text-sm ">
+                <div className="text-center text-xs xl:text-sm">
                   {item.text}
                 </div>
               </div>
@@ -85,7 +85,7 @@ export const Methodology: FC = () => {
           })}
         </div>
       </div>
-      <div className="px-[20px] py-[25px] mt-[30px] text-xs md:text-sm xl:text-lg">
+      <div className="px-[20px] py-[25px] mt-[30px] text-xs md:text-sm xl:text-lg border-gray  border-[2px] rounded-[20px]">
         Помимо этого, выделены 14 сфер профессиональной деятельности, результаты
         тестирования помогут выявить у выпускника способность в рамках каждой из
         них.

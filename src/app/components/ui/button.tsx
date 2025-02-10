@@ -22,7 +22,7 @@ export const Button: React.FC<ButtonProps> = ({
 
   return (
     <button
-      className={`w-[317px] py-4 rounded-[100px] text-xl font-medium border-blue border-[2px]  ${variantStyles} ${className}`}
+      className={`w-[317px] py-4 rounded-[100px] xl:text-xl font-medium border-blue border-[2px]  ${variantStyles} ${className}`}
       onClick={onClick}
       {...props}
     >

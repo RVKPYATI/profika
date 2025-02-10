@@ -5,13 +5,13 @@ import Image from "next/image";
 export const DemoForm: FC = () => {
   return (
     <section className="py-[50px]">
-      <h3 className="text-[32px] md:text-[38px] xl:text-[48px] text-blue font-bold max-w-[695px]">
+      <h3 className="text-[32px] md:text-[38px] xl:text-[48px] text-blue font-bold max-w-[695px] leading-10 xl:leading-[57px]">
         Оставьте заявку на бесплатную демонстрацию
       </h3>
 
       <div className="flex justify-between flex-col sm:flex-row">
         {/* fom */}
-        <div className="mt-[30px] w-full sm:w-1/2">
+        <div className=" w-full sm:w-1/2">
           <div className="text-xs md:text-sm xl:text-lg mt-[40px] xl:mt-[50px]">
             Мы свяжемся с Вами, чтобы обсудить дату и время демонстрации, а
             также ответим на все возникшие вопросы

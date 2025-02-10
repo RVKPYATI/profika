@@ -22,7 +22,7 @@ const data = [
 
 export const Direction: FC = () => {
   return (
-    <section id="direction" className="py-[50px] overflow-hidden">
+    <section id="direction" className="py-[50px] ">
       <div className="max-w-[527px]">
         <h2 className="text-[38px] md:text-[48px] text-blue font-bold text-center md:text-left">
           Руководству региона
@@ -52,13 +52,13 @@ export const Direction: FC = () => {
               </div>
             );
           })}
-          <div className="mt-3 mx-auto">
-            <Button className="max-w-[280px] text-base md:max-w-[317px] ">
+          <div className="mt-3 mx-auto md:mx-0">
+            <Button className="max-w-[300px] py-[13px] text-base md:max-w-[317px] ">
               Бесплатная демонстрация
             </Button>
           </div>
         </div>
-        <div className="min-w-[65%] flex justify-end">
+        <div className="w-full md:translate-x-[25px] lg:translate-x-[30px] xl:translate-x-[40px]">
           <Image
             src="/assets/direction.png"
             width={622}

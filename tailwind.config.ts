@@ -11,7 +11,7 @@ export default {
       container: {
         center: true,
         padding: {
-          DEFAULT: '15px',
+          DEFAULT: '10px',
           sm: '20px',
           md: '25px',
           lg: '30px',

@@ -72,7 +72,7 @@ export const Tasks: FC = () => {
             return (
               <SwiperSlide key={task.id}>
                 <div className="py-[45px]">
-                  <div className="border-orange border-[1px] rounded-[20px] py-[25px] px-5 h-[400px] sm:h-[323px]">
+                  <div className="border-orange border-[2px] rounded-[20px] py-[25px] px-5 h-[400px] sm:h-[323px]">
                     <div>
                       <div className="text-sx md:text-sm xl:text-lg">
                         {task.title}

@@ -21,11 +21,11 @@ const data = [
 
 export const Teenager: FC = () => {
   return (
-    <section id="teenager" className="py-[50px] overflow-hidden">
+    <section id="teenager" className="py-[50px] ">
       <h2 className="text-[38px] md:text-[48px] text-blue font-bold text-center md:text-left">
         Подростку
       </h2>
-      <div className="flex  flex-col md:flex-row justify-between gap-[30px] xl:gap-[100px] mt-12">
+      <div className="flex justify-between  flex-col md:flex-row gap-[30px] xl:gap-[100px] mt-12">
         <div className="flex flex-col gap-[15px]">
           {data.map((item, index) => {
             return (
@@ -45,7 +45,7 @@ export const Teenager: FC = () => {
             );
           })}
         </div>
-        <div className="w-full md:w-[60%] h-full object-cover self-center">
+        <div className="md:translate-x-[25px] lg:translate-x-[30px] xl:translate-x-[40px]">
           <Image
             src="/assets/teeneger.png"
             width={599}

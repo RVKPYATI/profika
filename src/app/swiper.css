@@ -10,10 +10,10 @@
   color: #fff;
   opacity: 1;
   background: #fff;
-  border: 1px solid #f0f0f0;
+  border: 2px solid #f0f0f0;
 }
 
 .swiper-pagination-bullet-active {
   background: #fff;
-  border: 1px solid #ea731a;
+  border: 2px solid #ea731a;
 }
