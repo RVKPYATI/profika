@@ -42,7 +42,7 @@ export const Work: FC = () => {
             Как это работает?
           </h2>
 
-          <div className="mb-2">
+          <div className="mb-2 mt-[50px]">
             <Image src={"/assets/screen.png"} width={372} height={572} alt="" />
           </div>
         </div>
@@ -68,7 +68,7 @@ export const Work: FC = () => {
                   <p>
                     <Link
                       href={step.link.path}
-                      className="text-gray-colored underline underline-offset-4 mt-[10px]"
+                      className="text-gray-colored text-[10px] md:text-xs xl:text-sm underline underline-offset-4 mt-[10px]"
                     >
                       {step.link.name}
                     </Link>

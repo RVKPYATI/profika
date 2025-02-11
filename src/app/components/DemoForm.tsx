@@ -16,7 +16,7 @@ export const DemoForm: FC = () => {
             Мы свяжемся с Вами, чтобы обсудить дату и время демонстрации, а
             также ответим на все возникшие вопросы
           </div>
-          <form>
+          <form className="mt-[30px]">
             <div className="border-b border-gray ">
               <input
                 type="text"

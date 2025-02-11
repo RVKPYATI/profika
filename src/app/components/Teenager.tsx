@@ -45,7 +45,7 @@ export const Teenager: FC = () => {
             );
           })}
         </div>
-        <div className="md:translate-x-[25px] lg:translate-x-[30px] xl:translate-x-[40px]">
+        <div className="translate-x-[10px] sm:translate-x-[20px] md:translate-x-[25px] lg:translate-x-[30px] xl:translate-x-[40px]">
           <Image
             src="/assets/teeneger.png"
             width={599}
