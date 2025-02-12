@@ -61,14 +61,15 @@ export const Hero: FC = () => {
               выпускников школ
             </p>
           </div>
-          <div className="max-w-[1/2] xl:max-w-[253px]">
+          <div className="max-w-[1/2] xl:max-w-[253px] ">
             <Image
               src={"/assets/books.png"}
               width={74}
               height={71}
               alt=""
-              className="w-[41px] md:w-[67px] xl:w-[71px]"
+              className="w-[41px] md:w-[67px] xl:w-[71px] "
             />
+
             <p className="text-[8px] md:text-xs xl:text-sm text-gray-colored max-[1/2] xl:max-w-[253px]">
               выстраивание системы образования внутри региона под современные
               запросы детей
@@ -94,7 +95,7 @@ export const Hero: FC = () => {
               width={63}
               height={74}
               alt=""
-              className="absolute top-0 right-[-25%] md:hidden"
+              className="absolute top-0 right-[-25%] hidden xl:block"
             />
           </div>
         </div>

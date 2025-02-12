@@ -31,7 +31,7 @@ export const Direction: FC = () => {
 
       <div className="flex  flex-col md:flex-row justify-between gap-[30px] xl:gap-[100px] mt-12">
         <div className="flex flex-col xl:gap-[15px]">
-          <p>
+          <p className="max-w-[527px] xl:text-lg">
             Для региона будет доступна подробная информация о своих учащихся и
             их планах на дальнейшее обучение и карьеру.
           </p>
@@ -58,7 +58,7 @@ export const Direction: FC = () => {
             </Button>
           </div>
         </div>
-        <div className="w-full translate-x-[10px] sm:translate-x-[20px] md:translate-x-[25px] lg:translate-x-[30px] xl:translate-x-[40px]">
+        <div className=" translate-x-[10px] sm:translate-x-[20px] md:translate-x-[25px] lg:translate-x-[30px] xl:translate-x-[40px]">
           <Image
             src="/assets/direction.png"
             width={622}
